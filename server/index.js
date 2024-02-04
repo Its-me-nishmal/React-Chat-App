@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
     res.status(200).json({ success: "working" });
 });
 
-app.listen(3000, () => {
+app.listen(8080, () => {
     console.log('Server running ');
 });
